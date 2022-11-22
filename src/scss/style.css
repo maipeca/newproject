@@ -70,30 +70,21 @@ body {
   width: 100%;
   text-align: center;
 }
-.container .hero img {
-  height: 6vw;
-  width: 8vw;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10% 40%;
-}
-
-.logo {
-  height: 9vw;
-  width: 9vw;
-}
-.logo img {
-  height: 100%;
-  width: 100%;
-}
-
-footer p {
-  color: #270757;
-  font-size: 1rem;
+.container .hero p {
   text-align: center;
 }
-footer p a {
-  color: #ff0000;
+.container .hero img {
+  height: auto;
+  width: 6vw;
+  display: block;
+  margin: 0 auto;
+  object-fit: fill;
+  border-radius: 50% 50%;
+}
+
+#amazing {
+  height: 4vw;
+  margin-top: 2vw;
 }
 
 /*# sourceMappingURL=style.css.map */
