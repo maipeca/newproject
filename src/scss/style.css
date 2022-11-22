@@ -1,0 +1,99 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfcfc;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  align-items: center;
+}
+.nav__item {
+  color: #270757;
+  text-decoration: none;
+  position: relative;
+}
+.nav__item:hover {
+  animation: toTop;
+  animation-duration: 0.5s;
+}
+
+@keyframes toTop {
+  from {
+    top: 0;
+  }
+  to {
+    top: -1rem;
+  }
+}
+.nav {
+  width: 200px;
+  height: 100px;
+  background: #fdfdfd;
+  position: relative;
+  animation: mymove 1s;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+    background: #ff0000;
+    width: 100px;
+  }
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 90vw;
+  flex-wrap: wrap;
+  height: auto;
+}
+.container .hero {
+  background-image: url(../assets/images/letter2.svg);
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vw;
+  width: 90vw;
+}
+.container .hero h2 {
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+}
+.container .hero img {
+  height: 6vw;
+  width: 8vw;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10% 40%;
+}
+
+.logo {
+  height: 9vw;
+  width: 9vw;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+footer p {
+  color: #270757;
+  font-size: 1rem;
+  text-align: center;
+}
+footer p a {
+  color: #ff0000;
+}
+
+/*# sourceMappingURL=style.css.map */
