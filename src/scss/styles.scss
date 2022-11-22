@@ -1,0 +1,22 @@
+$color-primary: #fdfcfc;
+$color-secondary: #ff0000;
+$font-color-primary: #270757;
+$font-default: "Lucida Console", "Courier New", monospace;
+$font-size-default: 1.0rem;
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $color-primary;
+    font-family: $font-default;
+    margin: 0;
+}
+
+@import 'nav';
+@import 'animations';
+@import 'header';
+@import 'footer';

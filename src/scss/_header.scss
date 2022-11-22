@@ -1,0 +1,46 @@
+
+.container {
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    height: auto;
+
+    .hero {
+        background-image:url(../assets/images/letter2.svg);
+        align-items: center;
+        background-repeat:no-repeat;
+        background-position: center;
+        height: 30vw;
+        width: 90vw;
+
+        h2{
+            margin-top: 3rem;
+            width: 100%;
+            text-align: center;
+        }
+        
+        img{
+            height: 6vw;
+            width: 8vw;
+            display: block;
+            margin: 0 auto;
+            border-radius:10% 40%;
+        }
+}
+
+}
+
+.logo {
+    height: 9vw;
+    width: 9vw;
+    
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    
+}
