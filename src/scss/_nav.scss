@@ -1,14 +1,25 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    width: 280px;
+    width: 35%;
     align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    background-color: transparent;
+    animation: mymove 1s;
+    justify-content:space-around;
 
     &__item {
         color: $font-color-primary;
         text-decoration: none;
         position: relative;
+
+        img{ width: 3vw;
+            @media (max-width: 600px) {
+                width: 5vw;
+            }}
+       
+    
         &:hover {
             animation: toTop;
             animation-duration: 0.5s;

@@ -5,16 +5,21 @@ $font-default: "Lucida Console", "Courier New", monospace;
 $font-size-default: 1.0rem;
 
 
+*{box-sizing: border-box;}
+
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-}
+  }
+  
 
 body {
-    background-color: $color-primary;
-    font-family: $font-default;
+   
+    font-family: "Lucida Console", "Courier New", monospace;
     margin: 0;
-}
+    font-size: 1vw;   
+  }
 
 @import 'nav';
 @import 'animations';

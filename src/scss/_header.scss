@@ -1,3 +1,4 @@
+
 .container {
     
     display: flex;
@@ -10,34 +11,64 @@
 
     .hero {
         background-image:url(../assets/images/letter2.svg);
+        background-size:contain;
         align-items: center;
         background-repeat:no-repeat;
         background-position: center;
         height: 30vw;
-        width: 90vw;
+        width: 80vw;
+
+        @media (max-width: 1440px) {
+           height:38vw;}
+        @media (max-width: 1000px) {
+            height:70vw;
+            width: 90vw;}
+        @media (max-width: 500px) {
+            height:90vw;
+            width: 90vw;}}
+        
 
         h2{
             margin-top: 3rem;
             width: 100%;
             text-align: center;
+            font-size: 1.5vw;
+            @media (max-width: 810px) {
+                width:50%; margin: 0 auto; margin-top: 1vw;
+            font-size: 2vw;}
+            @media (max-width: 500px) {
+                font-size: 3vw;
+            }
         }
 
         p{ 
-            text-align: center;}
+            text-align: center;
+            width: 15%;
+            margin: 0 auto;
+        
+        @media (max-width: 810px) {width:50%; font-size: 2vw;}
+        @media (max-width: 1400px) {
+            margin-top: 3vw;
+            width:30%;}}
         
         img{
             height: auto;
             width: 6vw;
             display: block;
             margin: 0 auto;
+            margin-top: 3vw;
             object-fit:fill;
             border-radius:50% 50%;
+            @media (max-width: 1400px) { width: 8vw;
+                }
+            @media (max-width: 810px) { width: 10vw;
+                }
         }
 }
 
-}
 
-#amazing { height: 4vw;margin-top: 2vw;
-   
-    
+
+#amazing { 
+    height: 4vw;
+    margin-top: 2vw;  
 }
