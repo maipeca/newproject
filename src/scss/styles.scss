@@ -1,26 +1,30 @@
-$color-primary: #fdfcfc;
-$color-secondary: #ff0000;
-$font-color-primary: #270757;
-$font-default: "Lucida Console", "Courier New", monospace;
-$font-size-default: 1.0rem;
+$color-primary: #280659;
+$font-color-primary: #FEECED;
+$font-color-secondary: #F42A34;
+$font-default: 'Poppins', sans-serif;
+$font-size-default: 1.2rem;
+
 
 
 *{box-sizing: border-box;}
-
 
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
   }
   
-
-body {
+  body {
    
     font-family: "Lucida Console", "Courier New", monospace;
     margin: 0;
-    font-size: 1vw;   
+    font-size: 1vw;
+    
   }
+  
+  
+ 
+ 
 
-@import 'nav';
 @import 'animations';
 @import 'header';
+@import 'nav';
